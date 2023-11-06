@@ -78,7 +78,7 @@ li {
 }
 
 .btn:hover {
-  box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+  box-shadow: 0px 20px 20px 0px rgba(128, 128, 128, 0.3);
   color: rgb(255 255 255);
 }
 
@@ -124,7 +124,7 @@ Header Section Start
 
 .header .logo {
   /* width: 15%; */
-  height: 7rem;
+  height: 8rem;
 }
 
 .navbar-lists {
@@ -444,7 +444,7 @@ Services Section
   text-align: center;
   box-shadow: var(--shadow);
   border-radius: 5px;
-  padding: 6.4rem 3.4rem;
+  padding: 2.5rem 2.5rem;
   transition: all 0.2s linear;
 }
 
@@ -496,199 +496,6 @@ Services Section
   margin-bottom: 1rem;
 }
 
-/* ===========================================
-Resume Section
-======================================= */
-
-.section-resume {
-  background: var(--bg);
-}
-
-.resume-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.resume-img img {
-  width: 80%;
-  box-shadow: -2rem 2rem 0 0 var(--helper);
-  /* box-shadow: var(--shadpw) */
-}
-
-.resume-para {
-  font-size: 2.4rem;
-  letter-spacing: 0;
-  text-transform: capitalize;
-  color: var(--heading);
-}
-
-.resume-data-subsection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4.8rem;
-  margin-top: 4.4rem;
-  padding-bottom: 2.4rem;
-  border-bottom: 1px solid var(--para-tint);
-}
-
-.resume-data-left .grid {
-  gap: 1.5rem;
-}
-
-.resume-data-left .grid p,
-.resume-data-right p {
-  font-size: 1.4rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.resume-data-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.resume-data-right .resume-data-button {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  color: var(--helper);
-  padding: 0.3rem 0;
-  min-width: 50%;
-  background: #f3f4ff;
-  border-radius: 10rem;
-  justify-content: center;
-  margin-bottom: 0.5rem;
-}
-
-.resume-data-bottom-subsection {
-  margin-top: 4.8rem;
-}
-
-.resume-data-bottom-subsection .margin-small {
-  margin-top: 1.8rem;
-}
-
-.resume-data-bottom-subsection .resume-data-button {
-  width: 80%;
-}
-
-/* ===========================================
-Testimonial Swiper Queries Section
-======================================= */
-/* 
-.section-testimonial {
-  background-color: var(--bg);
-} */
-
-.swiper {
-  width: 100%;
-  height: 100%;
-  margin-top: 9rem;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  /* background: #fff; */
-
-  /* Center slide text vertically */
-  flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
-.swiper-client-msg {
-  padding: 5rem 8rem;
-  background-color: var(--third);
-  border-radius: 10px;
-  text-align: left;
-  box-shadow: var(--shadpw);
-  position: relative;
-}
-
-.swiper-client-msg::before {
-  content: "";
-  position: absolute;
-  bottom: -10rem;
-  left: 50%;
-  transform: translateX(-50%);
-  /* width: 5rem;
-  height: 5rem; */
-  border: 5rem solid var(--third);
-  border-color: transparent;
-  border-top-color: var(--third);
-}
-
-.swiper-client-msg p::before {
-  content: "\f10d";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 2rem;
-  font-size: 5rem;
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: #ced3ff;
-}
-
-.swiper-client-msg p::after {
-  /* display: inline-block */
-  content: "\f10e";
-  position: absolute;
-  bottom: 0%;
-  right: 5%;
-
-  font-size: 5rem;
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: #ced3ff;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper-client-data {
-  align-items: center;
-  justify-items: start;
-  justify-content: start;
-  gap: 1.4rem;
-  margin-top: 3.2rem;
-}
-
-.swiper-client-data img {
-  max-width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  border: 0.5rem solid #ced3ff;
-}
-
-.swiper-client-data p:first-child {
-  font-weight: bold;
-  color: var(--heading);
-}
-
-/* ===========================================
-freelancer  Section
-======================================= */
 
 .section-freelancer {
   background-image: url("../images/folio/3.jpg");
@@ -719,7 +526,7 @@ freelancer  Section
 }
 
 .section-freelancer h2 span {
-  color: #a0f669;
+  color: black;
 }
 
 .section-freelancer h2,
