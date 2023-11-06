@@ -171,6 +171,9 @@ and we need to hide the close menu icon
   display: none;
 }
 
+
+/* Style the image above the icon */
+
 /* sticky Navbar */
 .sticky .header {
   position: fixed;
