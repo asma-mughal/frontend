@@ -381,9 +381,7 @@ h3 {
   width: 100%;
   height: 100%;
   background: -webkit-linear-gradient(
-    0deg,
-    rgb(132 144 255) 0%,
-    rgb(98 189 252) 100%
+    0deg, #e4e4e4 0%, #777 100%
   );
   opacity: 0;
   color: var(--third);
