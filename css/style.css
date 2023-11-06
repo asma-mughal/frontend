@@ -147,7 +147,7 @@ Header Section Start
 
 .navbar-link:hover,
 .navbar-link:active {
-  color: var(--helper);
+  color: #808080;
 }
 
 .mobile-navbar-btn {
@@ -741,6 +741,7 @@ Media Queries Section
     transform: translateX(0);
     z-index: 9999;
   }
+ 
 
   .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
     display: block;
